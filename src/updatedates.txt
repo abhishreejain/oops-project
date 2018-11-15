@@ -1,0 +1,22 @@
+modifying check in and check out dates
+
+import net.proteanit.sql.DbUtils; 
+
+public Connection conn;
+PreparedStatement pstmt=null;		//include these in the class that extends Jframe
+
+//include the following in the action event for the "NEXT" button:
+
+try{
+	
+	Date chkin = checkin.getDate();
+	Date chkout - checkout.getDate();
+
+	String sql = "update booking set CheckIn='"+chkin+"',CheckOut='"+chkout+"'";
+	pstmt=conn.prepareStatement(sql);
+	pstmt.execute();
+	JOptionPane.showMessageDialog(null,"Updated");
+}
+catch(Exception e){}
+
+	
