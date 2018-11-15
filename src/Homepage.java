@@ -58,7 +58,7 @@ public class Homepage extends javax.swing.JFrame {
         });
 
         jButton2.setFont(new java.awt.Font("SansSerif", 1, 48)); // NOI18N
-        jButton2.setText("REGISTER");
+        jButton2.setText("SIGN UP");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);

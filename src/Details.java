@@ -67,9 +67,9 @@ public class Details extends javax.swing.JFrame {
             }
         });
 
-        lbl_pancard.setText("1.");
+        lbl_pancard.setText(".");
 
-        lbl_aadharcard.setText("2.");
+        lbl_aadharcard.setText(".");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
