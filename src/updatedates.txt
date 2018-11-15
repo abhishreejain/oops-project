@@ -11,8 +11,8 @@ try{
 	
 	Date chkin = checkin.getDate();
 	Date chkout - checkout.getDate();
-
-	String sql = "update booking set CheckIn='"+chkin+"',CheckOut='"+chkout+"'";
+	int numdays = (int)days;
+	String sql = "update booking set CheckIn='"+chkin+"',CheckOut='"+chkout+"',NumOfDays='"+numdays+"'";
 	pstmt=conn.prepareStatement(sql);
 	pstmt.execute();
 	JOptionPane.showMessageDialog(null,"Updated");
